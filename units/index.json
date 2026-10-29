@@ -8,7 +8,7 @@
       "file": "units/unit-01/words.json",
       "words": 10,
       "people": 4,
-      "version": "94766fa5e0"
+      "version": "9220fe814a"
     },
     {
       "unit": 2,
@@ -17,7 +17,7 @@
       "file": "units/unit-02/words.json",
       "words": 28,
       "people": 1,
-      "version": "2c8dd5ebc7"
+      "version": "e7bc69813c"
     },
     {
       "unit": 3,
@@ -26,7 +26,7 @@
       "file": "units/unit-03/words.json",
       "words": 26,
       "people": 2,
-      "version": "10ac87c533"
+      "version": "e7a84a51f1"
     },
     {
       "unit": 4,
@@ -35,7 +35,7 @@
       "file": "units/unit-04/words.json",
       "words": 23,
       "people": 1,
-      "version": "1e734aba7c"
+      "version": "64d3a7d8ca"
     },
     {
       "unit": 5,
@@ -44,7 +44,7 @@
       "file": "units/unit-05/words.json",
       "words": 29,
       "people": 0,
-      "version": "c2800645e6"
+      "version": "aba9a32fd1"
     },
     {
       "unit": 6,
@@ -53,7 +53,7 @@
       "file": "units/unit-06/words.json",
       "words": 37,
       "people": 0,
-      "version": "af823ba511"
+      "version": "f37b82b2b0"
     }
   ]
 }

@@ -266,11 +266,12 @@ def index():
             "unit": data["unit"], "title": data["title"], "en": data["en"],
             "file": path.relative_to(ROOT).as_posix(),
             "words": sum(not w.get("person") for w in words), "people": sum(bool(w.get("person")) for w in words),
-            "version": hashlib.sha1(path.read_bytes()).hexdigest()[:10],
+            # the same whether the file has Windows or plain line endings (git keeps plain ones)
+            "version": hashlib.sha1(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:10],
         })
     out = {"book": "Developing Chinese (2nd ed.), Elementary Comprehensive Course I", "units": units}
     text = json.dumps(out, ensure_ascii=False, indent=2) + "\n"
-    (UNITS / "index.json").write_text(text, encoding="utf-8")
+    (UNITS / "index.json").write_text(text, encoding="utf-8", newline="\n")
     return out
 
 
