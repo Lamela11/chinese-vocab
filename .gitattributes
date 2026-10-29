@@ -1,4 +1,5 @@
-# Windows needs its own line endings in .cmd files; everything else is stored with plain ones.
-* text=auto
+# Windows needs its own line endings in .cmd files; everything else keeps plain ones, also on this
+# laptop, so tools/vocab.py's versions of the word lists don't change with the line endings.
+* text=auto eol=lf
 *.cmd text eol=crlf
 *.png binary
