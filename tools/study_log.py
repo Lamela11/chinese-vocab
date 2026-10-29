@@ -100,13 +100,13 @@ def events(text):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     found = events(LOG.read_text(encoding="utf-8"))
-    known = {w["hanzi"] for path in ROOT.glob("units/unit-*/words.json")
+    known = {w["hanzi"] for path in ROOT.glob("units/*/words.json")  # the units and My words
              for w in json.loads(path.read_text(encoding="utf-8"))["words"]}
     for src in dict.fromkeys(e["src"] for e in found):
         words = [e["hz"] for e in found if e["src"] == src]
         print(f"{src}: " + "  ".join(w if w in known else f"({w})" for w in words))
     starred = sorted({e["hz"] for e in found} & known)
-    print(f"\nIn the app's units: {len(starred)} words get a star. In brackets: not in any unit yet.")
+    print(f"\nIn the app: {len(starred)} words get a star. In brackets: not in a unit or My words yet.")
     if "--save" in sys.argv:
         out = ROOT / "local" / "brain.json"
         out.parent.mkdir(exist_ok=True)

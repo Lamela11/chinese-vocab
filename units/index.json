@@ -55,5 +55,12 @@
       "people": 0,
       "version": "f37b82b2b0"
     }
-  ]
+  ],
+  "mine": {
+    "title": "我的生词",
+    "en": "My words",
+    "file": "units/my-words/words.json",
+    "words": 15,
+    "version": "0dff764d26"
+  }
 }

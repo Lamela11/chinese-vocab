@@ -1,0 +1,21 @@
+{
+  "title": "我的生词",
+  "en": "My words",
+  "words": [
+    {"id": "m1", "hanzi": "住", "pinyin": "zhù", "pos": "v.", "en": "live, stay", "added": "2026-10-29"},
+    {"id": "m2", "hanzi": "数学", "pinyin": "shùxué", "pos": "n.", "en": "mathematics, math", "added": "2026-10-29"},
+    {"id": "m3", "hanzi": "每天", "pinyin": "měi tiān", "pos": "", "en": "every day", "added": "2026-10-29"},
+    {"id": "m4", "hanzi": "起床", "pinyin": "qǐ chuáng", "pos": "", "en": "get up (out of bed)", "added": "2026-10-29"},
+    {"id": "m5", "hanzi": "几乎", "pinyin": "jīhū", "pos": "adv.", "en": "almost, nearly", "added": "2026-10-29"},
+    {"id": "m6", "hanzi": "食堂", "pinyin": "shítáng", "pos": "n.", "en": "canteen, dining hall", "added": "2026-10-29"},
+    {"id": "m7", "hanzi": "如果", "pinyin": "rúguǒ", "pos": "conj.", "en": "if", "added": "2026-10-29"},
+    {"id": "m8", "hanzi": "要是", "pinyin": "yàoshi", "pos": "conj.", "en": "if", "added": "2026-10-29"},
+    {"id": "m9", "hanzi": "我们中的一个人", "pinyin": "wǒmen zhōng de yí ge rén", "pos": "", "en": "one of us", "added": "2026-10-29"},
+    {"id": "m10", "hanzi": "做饭", "pinyin": "zuò fàn", "pos": "", "en": "cook, make a meal", "added": "2026-10-29"},
+    {"id": "m11", "hanzi": "聊天", "pinyin": "liáo tiān", "pos": "v.", "en": "chat", "added": "2026-10-29"},
+    {"id": "m12", "hanzi": "一边", "pinyin": "yìbiān", "pos": "conj.", "en": "while (doing two things at once)", "added": "2026-10-29"},
+    {"id": "m13", "hanzi": "打电话", "pinyin": "dǎ diànhuà", "pos": "", "en": "make a phone call, call", "added": "2026-10-29"},
+    {"id": "m14", "hanzi": "父母", "pinyin": "fùmǔ", "pos": "n.", "en": "parents", "added": "2026-10-29"},
+    {"id": "m15", "hanzi": "睡觉", "pinyin": "shuì jiào", "pos": "", "en": "sleep, go to bed", "added": "2026-10-29"}
+  ]
+}

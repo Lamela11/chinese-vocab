@@ -1,8 +1,8 @@
-// app.js - the screens: home (Review, Hard words and the units), a page for each list of words (a
-// unit, Review, Hard words or several units mixed) with its words and the three ways to study it,
-// the study screens of study.js, and Sync. Every answer, star and setting is saved as an event on
-// this device (store.js) and shared with your other devices (sync.js); progress is worked out from
-// all the events together (srs.js).
+// app.js - the screens: home (Review, Hard words, the units and My words), a page for each list of
+// words (a unit, My words, Review, Hard words or several units mixed) with its words and the three
+// ways to study it, the study screens of study.js, and Sync. Every answer, star and setting is saved
+// as an event on this device (store.js) and shared with your other devices (sync.js); progress is
+// worked out from all the events together (srs.js).
 
 import * as data from "./data.js";
 import { qrSvg } from "./qrcode.js";
@@ -222,6 +222,11 @@ function deck({ kind, number }) {
     if (!unit) return null;
     return { kind, path: `#/unit/${number}`, label: `Unit ${number}`, unit, list: unit.words, words: studied(unit.words) };
   }
+  if (kind === "mine") {
+    const own = data.myWords();
+    if (!own) return null;
+    return { kind, path: "#/mine", label: own.en, own, list: own.words, words: studied(own.words) };
+  }
   const all = data.allWords();
   if (kind === "review") {
     const words = studied(all).filter((w) => srs.due(st, w.key, today()));
@@ -245,6 +250,7 @@ function home() {
   const due = all.filter((w) => srs.due(st, w.key, today())).length;
   const hard = all.filter((w) => srs.hard(st, w)).length;
   const units = data.unitList();
+  const own = data.myWords();
   const mixed = mixedUnits();
   const mixWords = studied(mixed.flatMap((u) => u.words));
   const which = mixed.length === units.length ? "All units"
@@ -271,6 +277,10 @@ function home() {
       }).join("")}
       ${row("#/mix", "Mix units", `${which} · ${count(mixWords.length, "word")} · ${known(mixWords)} known`)}
     </nav>
+    ${own ? `<h2 class="section">${esc(own.en)}</h2>
+    <nav>
+      ${row("#/mine", own.title, `Words you added · ${count(studied(own.words).length, "word")} · ${known(studied(own.words))} known`, ' lang="zh-CN"')}
+    </nav>` : ""}
     <a class="sync-line" href="#/sync" data-link data-sync-status>${esc(syncStatus())}</a>
     ${keeps ? "" : '<p class="note">This browser window doesn\'t keep what you study (a private window?). Open the app in a normal window.</p>'}`;
 }
@@ -301,6 +311,8 @@ function deckPage(d) {
   const head = {
     unit: () => `<p class="kicker">Unit ${d.unit.unit}</p><h1 lang="zh-CN">${esc(d.unit.title)}</h1>
       <p class="muted">${esc(d.unit.en)}</p>`,
+    mine: () => `<p class="kicker">Words you added</p><h1 lang="zh-CN">${esc(d.own.title)}</h1>
+      <p class="muted">${esc(d.own.en)}</p>`,
     review: () => "<h1>Review</h1>",
     hard: () => "<h1>Hard words</h1>",
     mix: () => `<h1>Mix units</h1><div class="pills chips">
