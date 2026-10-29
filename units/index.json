@@ -1,0 +1,59 @@
+{
+  "book": "Developing Chinese (2nd ed.), Elementary Comprehensive Course I",
+  "units": [
+    {
+      "unit": 1,
+      "title": "你好",
+      "en": "Hello",
+      "file": "units/unit-01/words.json",
+      "words": 10,
+      "people": 4,
+      "version": "94766fa5e0"
+    },
+    {
+      "unit": 2,
+      "title": "你是哪国人",
+      "en": "Which Country Are You from",
+      "file": "units/unit-02/words.json",
+      "words": 28,
+      "people": 1,
+      "version": "2c8dd5ebc7"
+    },
+    {
+      "unit": 3,
+      "title": "你叫什么名字",
+      "en": "What's Your Name",
+      "file": "units/unit-03/words.json",
+      "words": 26,
+      "people": 2,
+      "version": "10ac87c533"
+    },
+    {
+      "unit": 4,
+      "title": "你学习法语吗",
+      "en": "Do You Study French",
+      "file": "units/unit-04/words.json",
+      "words": 23,
+      "people": 1,
+      "version": "1e734aba7c"
+    },
+    {
+      "unit": 5,
+      "title": "你家有几口人",
+      "en": "How Many People Are There in Your Family",
+      "file": "units/unit-05/words.json",
+      "words": 29,
+      "people": 0,
+      "version": "c2800645e6"
+    },
+    {
+      "unit": 6,
+      "title": "香蕉多少钱一斤",
+      "en": "How Much Is Half a Kilogram of Bananas",
+      "file": "units/unit-06/words.json",
+      "words": 37,
+      "people": 0,
+      "version": "af823ba511"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "unit": 1,
+  "title": "你好",
+  "en": "Hello",
+  "words": [
+    {"id": "1-7-1", "hanzi": "你", "pinyin": "nǐ", "pos": "pron.", "en": "you (singular)", "text": "课文一", "page": 4, "tag": "word"},
+    {"id": "1-7-2", "hanzi": "好", "pinyin": "hǎo", "pos": "adj.", "en": "good, fine, nice", "text": "课文一", "page": 4, "tag": "word"},
+    {"id": "1-7-n1", "hanzi": "马丁", "pinyin": "Mǎdīng", "pos": "", "en": "Martin, name of an American student", "text": "课文一", "page": 4, "tag": "name", "person": true},
+    {"id": "1-7-n2", "hanzi": "林娜", "pinyin": "Línnà", "pos": "", "en": "Linna, name of a French student", "text": "课文一", "page": 4, "tag": "name", "person": true},
+    {"id": "1-9-1", "hanzi": "您", "pinyin": "nín", "pos": "pron.", "en": "you (polite singular)", "text": "课文二", "page": 4, "tag": "word"},
+    {"id": "1-9-n1", "hanzi": "李一民", "pinyin": "Lǐ Yīmín", "pos": "", "en": "Li Yimin, name of a Chinese teacher", "text": "课文二", "page": 4, "tag": "name", "person": true},
+    {"id": "1-9-n2", "hanzi": "阿明", "pinyin": "Āmíng", "pos": "", "en": "A’ming, name of a Thai student", "text": "课文二", "page": 4, "tag": "name", "person": true},
+    {"id": "1-11-1", "hanzi": "零", "pinyin": "líng", "pos": "num.", "en": "zero", "text": "课文三", "page": 5, "tag": "word"},
+    {"id": "1-11-2", "hanzi": "一", "pinyin": "yī", "pos": "num.", "en": "one", "text": "课文三", "page": 5, "tag": "word"},
+    {"id": "1-11-3", "hanzi": "二", "pinyin": "èr", "pos": "num.", "en": "two", "text": "课文三", "page": 5, "tag": "word"},
+    {"id": "1-11-4", "hanzi": "五", "pinyin": "wǔ", "pos": "num.", "en": "five", "text": "课文三", "page": 5, "tag": "word"},
+    {"id": "1-11-5", "hanzi": "八", "pinyin": "bā", "pos": "num.", "en": "eight", "text": "课文三", "page": 5, "tag": "word"},
+    {"id": "1-13-1", "hanzi": "你们", "pinyin": "nǐmen", "pos": "pron.", "en": "you (plural)", "text": "补充词语", "page": 6, "tag": "extra"},
+    {"id": "1-13-2", "hanzi": "老师", "pinyin": "lǎoshī", "pos": "n.", "en": "teacher", "text": "补充词语", "page": 6, "tag": "extra"}
+  ]
+}

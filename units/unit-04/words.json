@@ -1,0 +1,31 @@
+{
+  "unit": 4,
+  "title": "你学习法语吗",
+  "en": "Do You Study French",
+  "words": [
+    {"id": "4-4-1", "hanzi": "留学生", "pinyin": "liúxuéshēng", "pos": "n.", "en": "student studying abroad", "text": "课文一", "page": 28, "tag": "word"},
+    {"id": "4-4-2", "hanzi": "她", "pinyin": "tā", "pos": "pron.", "en": "she, her", "text": "课文一", "page": 28, "tag": "word"},
+    {"id": "4-4-3", "hanzi": "学习", "pinyin": "xuéxí", "pos": "v.", "en": "learn, study", "text": "课文一", "page": 28, "tag": "word"},
+    {"id": "4-4-4", "hanzi": "他们", "pinyin": "tāmen", "pos": "pron.", "en": "they, them", "text": "课文一", "page": 28, "tag": "word"},
+    {"id": "4-4-4a", "hanzi": "们", "pinyin": "men", "pos": "suf.", "en": "used to form a plural number when added to a personal pronoun or a noun", "text": "课文一", "page": 29, "tag": "word", "parent": "4-4-4"},
+    {"id": "4-4-5", "hanzi": "一起", "pinyin": "yìqǐ", "pos": "adv.", "en": "together", "text": "课文一", "page": 29, "tag": "word"},
+    {"id": "4-4-6", "hanzi": "上课", "pinyin": "shàng kè", "pos": "v.", "en": "attend class, go to class, have class", "text": "课文一", "page": 29, "tag": "word"},
+    {"id": "4-4-7", "hanzi": "说", "pinyin": "shuō", "pos": "v.", "en": "speak, say, talk", "text": "课文一", "page": 29, "tag": "word"},
+    {"id": "4-4-n1", "hanzi": "法国", "pinyin": "Fǎguó", "pos": "", "en": "France", "text": "课文一", "page": 29, "tag": "name"},
+    {"id": "4-4-n2", "hanzi": "汉语", "pinyin": "Hànyǔ", "pos": "", "en": "Chinese (language)", "text": "课文一", "page": 29, "tag": "name"},
+    {"id": "4-4-n3", "hanzi": "泰国", "pinyin": "Tàiguó", "pos": "", "en": "Thailand", "text": "课文一", "page": 29, "tag": "name"},
+    {"id": "4-6-1", "hanzi": "吗", "pinyin": "ma", "pos": "part.", "en": "used at the end of a question", "text": "课文二", "page": 29, "tag": "word"},
+    {"id": "4-6-2", "hanzi": "不", "pinyin": "bù", "pos": "adv.", "en": "not, no", "text": "课文二", "page": 29, "tag": "word"},
+    {"id": "4-6-n1", "hanzi": "中国", "pinyin": "Zhōngguó", "pos": "", "en": "China", "text": "课文二", "page": 29, "tag": "name"},
+    {"id": "4-6-n2", "hanzi": "朱云", "pinyin": "Zhū Yún", "pos": "", "en": "Zhu Yun, name of a Chinese college student", "text": "课文二", "page": 29, "tag": "name", "person": true},
+    {"id": "4-6-n3", "hanzi": "英语", "pinyin": "Yīngyǔ", "pos": "", "en": "English (language)", "text": "课文二", "page": 30, "tag": "name"},
+    {"id": "4-6-n4", "hanzi": "法语", "pinyin": "Fǎyǔ", "pos": "", "en": "French (language)", "text": "课文二", "page": 30, "tag": "name"},
+    {"id": "4-8-1", "hanzi": "谁", "pinyin": "shéi (shuí)", "pos": "pron.", "en": "who, whom", "text": "课文三", "page": 31, "tag": "word"},
+    {"id": "4-8-2", "hanzi": "同学", "pinyin": "tóngxué", "pos": "n.", "en": "fellow student, schoolmate, classmate", "text": "课文三", "page": 31, "tag": "word"},
+    {"id": "4-10-1", "hanzi": "日语", "pinyin": "Rìyǔ", "pos": "", "en": "Japanese (language)", "text": "补充词语", "page": 32, "tag": "extra"},
+    {"id": "4-10-2", "hanzi": "韩语", "pinyin": "Hányǔ", "pos": "", "en": "Korean (language)", "text": "补充词语", "page": 32, "tag": "extra"},
+    {"id": "4-10-3", "hanzi": "德语", "pinyin": "Déyǔ", "pos": "", "en": "German (language)", "text": "补充词语", "page": 32, "tag": "extra"},
+    {"id": "4-10-4", "hanzi": "意大利语", "pinyin": "Yìdàlìyǔ", "pos": "", "en": "Italian (language)", "text": "补充词语", "page": 32, "tag": "extra"},
+    {"id": "4-10-5", "hanzi": "西班牙语", "pinyin": "Xībānyáyǔ", "pos": "", "en": "Spanish (language)", "text": "补充词语", "page": 32, "tag": "extra"}
+  ]
+}

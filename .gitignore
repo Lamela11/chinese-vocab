@@ -1,0 +1,14 @@
+# Nothing from the textbook or your notes belongs here. tools/book.py keeps page images and
+# OCR results in %LOCALAPPDATA%\chinese-vocab, outside this folder; these lines are a second guard.
+*.pdf
+*.sqlite
+lists/
+pages/
+strips/
+ocr/
+# words starred from your study log, for the app on this laptop only (tools/study_log.py)
+local/
+# this laptop's settings for Claude Code
+.claude/
+__pycache__/
+*.pyc

@@ -1,0 +1,4 @@
+# Windows needs its own line endings in .cmd files; everything else is stored with plain ones.
+* text=auto
+*.cmd text eol=crlf
+*.png binary
