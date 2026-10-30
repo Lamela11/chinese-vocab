@@ -63,6 +63,15 @@
       "words": 43,
       "people": 0,
       "version": "c14918d9c0"
+    },
+    {
+      "unit": 8,
+      "title": "今天几号",
+      "en": "What's the Date Today",
+      "file": "units/unit-08/words.json",
+      "words": 43,
+      "people": 0,
+      "version": "fa44d7deff"
     }
   ],
   "mine": {
