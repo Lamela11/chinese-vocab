@@ -54,6 +54,15 @@
       "words": 37,
       "people": 0,
       "version": "f37b82b2b0"
+    },
+    {
+      "unit": 7,
+      "title": "中国银行在哪儿",
+      "en": "Where Is the Bank of China",
+      "file": "units/unit-07/words.json",
+      "words": 43,
+      "people": 0,
+      "version": "c14918d9c0"
     }
   ],
   "mine": {
